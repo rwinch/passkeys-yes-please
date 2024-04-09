@@ -1,5 +1,11 @@
 = Passkeys...Yes Please!
 
+Do you or someone you know reuse passwords? How much entropy do your passwords have? Have you selected passwords that are truly random? Do you and your entire family use a password manager? In 2022, over 24 billion passwords were exposed by hackers. With passwords, attackers can steal your identity, money, and leverage your computing resources to attack other users.
+
+Passwords are a way of life, but do they have to be? WebAuthn is probably best known for its ability to provide multi factor authentication, but it has more recently gained attention under the name Passkeys as a replacement for passwords.
+
+In this session, Rob will teach you all there is to know Passkeys. He will also walk you through a demo Spring application that leverages Passkeys so you can see first hand what it takes to implement Passkeys in your applications.
+
 == Slides
 
 Slides are available at https://docs.google.com/presentation/d/1v60L1EVEhxRwK8YDa8vgB3htXpSG1H5Qk9sO-P0-ZJA/edit?usp=sharing
