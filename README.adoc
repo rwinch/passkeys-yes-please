@@ -33,6 +33,10 @@ See https://github.com/w3c/webauthn/issues/1204[w3c/webauthn#1204] for details.
 127.0.1.1	example.localhost
 ----
 
+=== Generating a Certificate
+
+openssl genpkey -algorithm RSA -aes-256-cbc -outform PEM -out ./src/main/resources/example.localhost.pem -pkeyopt rsa_keygen_bits:2048
+
 === mkcert
 
 
