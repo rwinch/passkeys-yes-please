@@ -72,9 +72,9 @@ final class WebAuthnCodecs {
         || len == 132
         || (keyBytes[0] == 0x04 && (lenSub1 == 64 || lenSub1 == 96 || lenSub1 == 132)))) {
       throw new IllegalArgumentException(
-          String.format(
-              "Raw key must be 64, 96 or 132 bytes long, or start with 0x04 and be 65, 97 or 133 bytes long; was %d bytes starting with %02x",
-              keyBytes.length, keyBytes[0]));
+					
+							"Raw key must be 64, 96 or 132 bytes long, or start with 0x04 and be 65, 97 or 133 bytes long; was %d bytes starting with %02x".formatted(
+							keyBytes.length, keyBytes[0]));
     }
     final int start = (len == 64 || len == 96 || len == 132) ? 0 : 1;
     final int coordinateLength = (len - start) / 2;
